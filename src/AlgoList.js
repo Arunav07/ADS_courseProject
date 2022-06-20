@@ -13,7 +13,7 @@ export const algoMap = {
 	DequeueLL: ['Dequeue (LinkedList)', algos.DequeLL],
 	BST: ['Binary Search Tree', algos.BST],
 	AVL: ['AVL', algos.AVL],
-	BTree: ['2-4 Tree', algos.BTree],
+	BTree: ['B Tree', algos.BTree],
 	BubbleSort: ['Bubble Sort', algos.BubbleSort],
 	InsertionSort: ['Insertion Sort', algos.InsertionSort],
 	SelectionSort: ['Selection Sort', algos.SelectionSort],
