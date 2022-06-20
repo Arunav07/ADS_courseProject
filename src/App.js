@@ -8,7 +8,6 @@ import ReactGA from 'react-ga';
 const App = () => {
 	ReactGA.initialize('UA-164374852-1');
 	ReactGA.pageview('home');
-
 	return (
 		<Router basename={process.env.PUBLIC_URL + '/'}>
 			<Switch>

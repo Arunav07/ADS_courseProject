@@ -3,6 +3,10 @@ body {
 	margin: 0;
 	padding: 0;
 	color: #000000;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
 }
 
 .about {
@@ -304,4 +308,8 @@ div.content {
 		left: -240px;
 		opacity: 0;
 	}
+}
+
+canvas.ParticleClass{
+	z-index: -1 !important;
 }
